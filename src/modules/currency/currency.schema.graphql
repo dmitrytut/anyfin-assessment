@@ -1,0 +1,7 @@
+" Currency "
+type Currency {
+    " Currecy symbol "
+    symbol: String!
+    " Exchange rate in SEK "
+    sekRate: Float
+}

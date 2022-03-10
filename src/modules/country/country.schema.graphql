@@ -1,0 +1,11 @@
+" Country "
+type Country {
+    name: String!
+    population: Int!
+    currencies: [Currency!]!
+}
+
+type Query {
+    " Get country by name "
+    country(name: String!): [Country!]!
+}
